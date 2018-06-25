@@ -29,13 +29,12 @@ export default {
             }else if(width >= 768) {
                 this.clientHeight = '279px'
             }
-            
             return this.clientHeight
         }
     },
     mounted() {
         this.getSlideHeight()
-    },
+    }
 }
 </script>
 

@@ -32,7 +32,10 @@ module.exports = {
   //  插件
   plugins: [{
     src: '~plugins/ElementUI',
-    ssr: true,
+    ssr: false,
+  }, {
+    src: '~plugins/CssDoodle',
+    ssr: false
   }],
   //  全局样式表
   css: [
@@ -40,6 +43,7 @@ module.exports = {
     'static/css/base.css',
     'static/css/index.css',
     'static/css/m.css',
+    'static/css/ele.css'
   ],
   /*
    ** Build configuration
