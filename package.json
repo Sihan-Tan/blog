@@ -22,7 +22,7 @@
   "dependencies": {
     "css-doodle": "^0.3.2",
     "element-ui": "^2.4.0",
-    "nuxt": "^1.4.1"
+    "nuxt": "^3.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
